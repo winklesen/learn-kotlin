@@ -1,21 +1,23 @@
 package id.winklesen.learnKotlin.fundamental
 
 fun main() {
-    //Array (memiliki fungsi get dan set serta properti size)
-    // array 1 type data
+    // Array: An array is a data structure that stores a collection of elements of the same type.
+
+    // Example 1: Array of integers
     val array = arrayOf(1, 3, 5, 7)
 
-    // array berbagai jenis type data
+    // Example 2: Array of mixed types
     val mixArray = arrayOf(1, 3, 5, 7 , "Dicoding" , true)
 
-    // array type data primitif
+    // Example 3: Primitive type arrays
     /*
-    intArrayOf() : IntArray
-    booleanArrayOf() : BooleanArray
-    charArrayOf() : CharArray
-    longArrayOf() : LongArray
-    shortArrayOf() : ShortArray
-    byteArrayOf() : ByteArray
-    * */
-    val numberArray = intArrayOf(1,2,3,4)
+    intArrayOf(): IntArray
+    booleanArrayOf(): BooleanArray
+    charArrayOf(): CharArray
+    longArrayOf(): LongArray
+    shortArrayOf(): ShortArray
+    byteArrayOf(): ByteArray
+    */
+    // Example 4: Array of integers using intArrayOf
+    val numberArray = intArrayOf(1, 2, 3, 4)
 }
